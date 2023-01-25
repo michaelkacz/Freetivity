@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/anton"
+        android:gravity="center"
+        android:minWidth="500dp"
+        android:minHeight="50dp"
+        android:text="New Beginnings"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/ProfileButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="-102dp"
+        android:layout_marginBottom="45dp"
+        android:clickable="true"
+        android:src="@drawable/profile"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/LogoutButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-92dp"
+        android:layout_marginBottom="45dp"
+        android:clickable="true"
+        android:src="@drawable/log_out"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/Categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="-40dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/anton"
+        android:gravity="center"
+        android:minWidth="500dp"
+        android:minHeight="50dp"
+        android:text="Profile"
+        android:textColor="@color/blue"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/ProfilePic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/profile"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/ProfileName"
+        android:layout_width="412dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/ProfileEmail"
+        android:layout_width="412dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/black"/>
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">New Beginnings</string>
+    <string name="activity_name">Activity Name: </string>
+    <string name="activity_location">Location: </string>
+    <string name="activity_desc">Description: </string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_date">MapsActivityDate</string>
+    <string name="title_activity_maps_friends">MapsActivityFriends</string>
+</resources>

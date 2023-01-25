@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "682922463397",
+    "project_id": "login-d4af6",
+    "storage_bucket": "login-d4af6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682922463397:android:a4c7734ea16d29a583fd4c",
+        "android_client_info": {
+          "package_name": "com.example.freetivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682922463397-c4h8f0t6kaj6msemq4mavcb9qgc87gsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT20tQLq_YMojTiJfe42597yn50gcSnXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682922463397-c4h8f0t6kaj6msemq4mavcb9qgc87gsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
