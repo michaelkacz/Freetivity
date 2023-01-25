@@ -1,0 +1,3 @@
+# Freetivity
+
+## Freetivity is an app designed to give users free activities do with within the Chicagoland area.  The user is prompted to register or login to the app with Firebase authentication storing the users credentials. Once logged in, the user is sent to a home page with the choice of selecting Solo, Date, or Group activities. Once a selection is made, each category lists 4 free activities with its location and description. Each category has a Google Maps API integrated to show markers of each location. Along with this, each page has a profile button which sends the user to a profile page showing the users information including name and email. The user is also able to logout from any activity screen and is sent back to the login page.
